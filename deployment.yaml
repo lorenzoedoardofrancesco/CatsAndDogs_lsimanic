@@ -17,4 +17,4 @@ spec:
       - name: catsanddogsgenerator
         image: lorenzoedoardofrancesco/catsanddogsgenerator:v1
         ports:
-        - containerPort: 8888
+        - containerPort: 80
