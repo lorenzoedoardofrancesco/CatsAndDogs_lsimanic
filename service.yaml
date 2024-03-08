@@ -8,5 +8,5 @@ spec:
     app: catsanddogsgenerator
   ports:
   - protocol: TCP
-    port: 80
+    port: 8888
     targetPort: 80
