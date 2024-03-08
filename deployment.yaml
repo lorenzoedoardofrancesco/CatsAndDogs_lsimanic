@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: catsanddogsgenerator
@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: catsanddogsgenerator
-        image: lorenzoedoardofrancesco/catsanddogsgenerator:v2
+        image: lorenzoedoardofrancesco/catsanddogsgenerator:v1
         ports:
         - containerPort: 80
