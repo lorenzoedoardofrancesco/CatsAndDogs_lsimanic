@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: catsanddogsgenerator
+  name: catsanddogs
   namespace: dev
 spec:
   selector:
     matchLabels:
-      app: catsanddogsgenerator
+      app: catsanddogs
   replicas: 1
   template:
     metadata:
       labels:
-        app: catsanddogsgenerator
+        app: catsanddogs
     spec:
       containers:
-      - name: catsanddogsgenerator
-        image: lorenzoedoardofrancesco/catsanddogsgenerator:v1
+      - name: catsanddogs
+        image: lorenzoedoardofrancesco/catsanddogs:v1
         ports:
         - containerPort: 80
