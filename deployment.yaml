@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: catsanddogs
-        image: lorenzoedoardofrancesco/catsanddogs_lsimanic:v1
+        image: lorenzoedoardofrancesco/catsanddogs_lsimanic:v2
         ports:
         - containerPort: 80
